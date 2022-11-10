@@ -46,10 +46,11 @@ while(y < 20){
 document.write(`----------------`);
 
 let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+document.write(`<ul>`)
 for(let i of listOfItems){
-
-        document.write(`<ul><li>${i}</li></ul>`);
+        document.write(`<li>${i}</li>`);
 }
+document.write(`</ul>`)
 document.write(`----------------`);
 
 //
