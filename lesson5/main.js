@@ -2,20 +2,27 @@
 function rectangle(a, b){
     return a*b;
 }
+
+console.log(rectangle(14, 10));
 // - створити функцію яка обчислює та повертає площу кола з радіусом r - pi*r**2
 let rect = (a, b) => a * b;
+console.log(rect(10, 10));
 // - створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r - 2pi*r**2 + 2pi*r*h
 let cylinder = (h, r) => 2*3.14*(r**2) + 2*3.14*r*h;
+console.log(cylinder(5, 7));
+
 // - створити функцію яка приймає масив та виводить кожен його елемент
 function arr(arr){
     for(let i of arr){
         console.log(i);
     }
 }
+arr([1,2,3,4,5])
 // - створити функцію яка створює параграф з текстом. Текст задати через аргумент
 function parahraf(text){
     document.write(`<p>${text}</p>`);
 }
+parahraf("qwerty")
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
 function ulli(text_li){
     document.write(`<ul>`);
@@ -24,15 +31,17 @@ function ulli(text_li){
     }
     document.write(`</ul>`);
 }
+ulli("abcdef")
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий.
 // Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
-function ulli(text_li, count){
+function ulli1(text_li, count){
     document.write(`<ul>`);
     for(let i = 0; i<count ; i++){
         document.write(`<li>${text_li}</li>`);
     }
     document.write(`</ul>`);
 }
+ulli1("ya", 7)
 // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
 function primitiveElements(arr){
     document.write(`<ul>`);
@@ -42,7 +51,7 @@ function primitiveElements(arr){
     }
     document.write(`</ul>`);
 }
-
+primitiveElements([1,2,3,4,5])
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ.
 // Для кожного об'єкту окремий блок.
 function arrOfObj(objectArr) {
@@ -54,13 +63,13 @@ function arrOfObj(objectArr) {
         document.write(`</div>`);
     }
 }
-// let usersArr = [
-//     {id:345, name:'Ostap', age:19},
-//     {id:567, name:'Nazar', age:19},
-//     {id:789, name:'Ihor', age:24}
-// ]
-//
-// arrOfObj(usersArr)
+
+let usersArr = [
+    {id:345, name:'Ostap', age:19},
+    {id:567, name:'Nazar', age:19},
+    {id:789, name:'Ihor', age:24}
+]
+arrOfObj(usersArr)
 
 // - створити функцію яка повертає найменьше число з масиву
 function minNumber(arr){
@@ -72,6 +81,9 @@ function minNumber(arr){
     }
     return min;
 }
+
+console.log(minNumber([3, 2, 6, -1, 0]));
+
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
 
 function sumOfNumber(arrSum){
@@ -82,4 +94,5 @@ function sumOfNumber(arrSum){
     return sum;
 }
 
+console.log(sumOfNumber([3, 2, 6, -1, 0]));
 
