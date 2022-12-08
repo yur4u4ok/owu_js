@@ -300,12 +300,12 @@ button.onclick = function(){
     let table = document.createElement('table');
     for(let row = 0; row<rows; row++){
         let r = document.createElement('tr');
-        table.appendChild(r);
         for(let cell = 0; cell<cells; cell++){
             let c = document.createElement('td');
             c.innerText = text
-            table.appendChild(c);
+            r.appendChild(c);
         }
+        table.appendChild(r);
     }
     document.body.appendChild(table);
 }
