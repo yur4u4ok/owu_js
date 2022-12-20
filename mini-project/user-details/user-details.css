@@ -1,0 +1,33 @@
+.userDiv{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: lightblue;
+}
+.buttonForTitles{
+    display: block;
+    margin: 15px auto 0;
+    padding: 5px;
+    width: 90%;
+}
+button:hover{
+    background-color: lightgray;
+    font-weight: bold;
+}
+.titleDiv{
+    position: relative;
+    width: 18%;
+    height: 80px;
+    margin: 5px;
+    padding-left: 15px;
+    background-color: lightblue;
+}
+.postDiv{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 15px;
+}
+.postButton{
+    position: absolute;
+    bottom: 10px;
+    left: 35px;
+}
