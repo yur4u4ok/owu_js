@@ -16,15 +16,18 @@ button:hover{
 .titleDiv{
     position: relative;
     width: 18%;
-    height: 80px;
+    height: 90px;
     margin: 5px;
     padding-left: 15px;
     background-color: lightblue;
 }
 .postDiv{
     display: flex;
-    flex-wrap:wrap;
-    margin: 15px;
+    flex-wrap: wrap;
+    margin: 15px 15px 15px 72px;
+    width: 90%;
+    padding-left: 10px;
+    background-color: darkgrey;
 }
 .postButton{
     position: absolute;

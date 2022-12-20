@@ -8,7 +8,6 @@
 let url = new URL(location.href);
 let searchParams = url.searchParams;
 let id = searchParams.get("id");
-console.log(id);
 
 fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
     .then(response => response.json())
@@ -27,11 +26,11 @@ fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
                 if (typeof (user[item]) === "object") {
                     let li = document.createElement('li');
                     li.innerText = item.toUpperCase();
+
                     userDiv.appendChild(li)
                     userInspection(user[item]);
                 }
             }
-
         }
         document.body.appendChild(userDiv);
         userInspection(user);
@@ -44,6 +43,7 @@ fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
                 .then(posts => {
                     let postDiv = document.createElement('div');
                     postDiv.className = 'postDiv';
+
                     for(let post of posts){
                         let titleDiv = document.createElement('div');
                         titleDiv.className = 'titleDiv';
@@ -56,7 +56,7 @@ fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
                         postButton.className = 'postButton';
 
                         let link = document.createElement('a');
-                        link.href = `post-details.html?id=${post.id}`;
+                        link.href = `../post-details/post-details.html?post_id=${post.id}`;
                         link.appendChild(postButton);
 
                         titleDiv.append(li, link);
@@ -65,7 +65,6 @@ fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
                     document.body.appendChild(postDiv);
                 })
         }
-
         document.body.appendChild(buttonForTitles);
     })
 

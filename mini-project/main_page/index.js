@@ -27,18 +27,26 @@
 fetch("https://jsonplaceholder.typicode.com/users")
     .then(response => response.json())
     .then(users => {
+        let main_div = document.createElement('div');
+        main_div.className = 'main_div';
+
         for(let user of users){
             let div = document.createElement('div');
+
             let paraghraph = document.createElement('p');
             paraghraph.innerText = `${user.id} - ${user.name}`;
+
             let link = document.createElement('a');
-            link.href = `mini-project/user-details/user-details.html?id=${user.id}`;
+            link.href = `../user-details/user-details.html?id=${user.id}`;
+
             let button = document.createElement('button');
             button.innerText = `Info about ${user.name}`;
+
             link.appendChild(button);
             div.append(paraghraph, link);
-            document.body.appendChild(div);
+            main_div.appendChild(div)
         }
+        document.body.appendChild(main_div);
     })
 
 
