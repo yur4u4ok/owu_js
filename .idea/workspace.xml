@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4002e917-eecc-4e73-8c53-de7b8a3a74e6" name="Changes" comment="lesson1">
-      <change afterPath="$PROJECT_DIR$/lesson2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/main.js" afterDir="false" />
+    <list default="true" id="4002e917-eecc-4e73-8c53-de7b8a3a74e6" name="Changes" comment="mini-project">
+      <change afterPath="$PROJECT_DIR$/lesson10/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/user-details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/users.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/additional/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/additional/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/additional/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/additional/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8/additional/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/additional/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9/additional1/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/additional1/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +28,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -38,9 +51,20 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ostap/IdeaProjects/owu_first&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ostap\IdeaProjects\owu_js\mini-project\main page" />
+      <recent name="C:\Users\Ostap\IdeaProjects\owu_js\mini-project\post-details" />
+      <recent name="C:\Users\Ostap\IdeaProjects\owu_js\mini-project\user-details" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,7 +76,58 @@
       <workItem from="1667297782630" duration="1790000" />
       <workItem from="1667299602017" duration="1323000" />
       <workItem from="1667314963009" duration="627000" />
-      <workItem from="1667475793849" duration="2631000" />
+      <workItem from="1667475793849" duration="2799000" />
+      <workItem from="1667586705260" duration="418000" />
+      <workItem from="1667729346730" duration="611000" />
+      <workItem from="1667819272426" duration="1577000" />
+      <workItem from="1667855553385" duration="118000" />
+      <workItem from="1667904192988" duration="5133000" />
+      <workItem from="1668070211446" duration="4172000" />
+      <workItem from="1668090938605" duration="314000" />
+      <workItem from="1668246871838" duration="7975000" />
+      <workItem from="1668502719209" duration="5032000" />
+      <workItem from="1668513252913" duration="9148000" />
+      <workItem from="1668595573672" duration="2761000" />
+      <workItem from="1668598822646" duration="26000" />
+      <workItem from="1668598878487" duration="170000" />
+      <workItem from="1668797509053" duration="41000" />
+      <workItem from="1668935645163" duration="5000" />
+      <workItem from="1669059924839" duration="8634000" />
+      <workItem from="1669110704229" duration="10905000" />
+      <workItem from="1669147551733" duration="1263000" />
+      <workItem from="1669202165934" duration="5104000" />
+      <workItem from="1669635528241" duration="10938000" />
+      <workItem from="1669817503105" duration="7523000" />
+      <workItem from="1669891439631" duration="4737000" />
+      <workItem from="1669919755781" duration="5396000" />
+      <workItem from="1669969179363" duration="73000" />
+      <workItem from="1669969310713" duration="30000" />
+      <workItem from="1669970429613" duration="213000" />
+      <workItem from="1669970962479" duration="1220000" />
+      <workItem from="1669982463809" duration="2952000" />
+      <workItem from="1670241338838" duration="2110000" />
+      <workItem from="1670262052397" duration="456000" />
+      <workItem from="1670262529731" duration="38000" />
+      <workItem from="1670262583644" duration="230000" />
+      <workItem from="1670263233186" duration="217000" />
+      <workItem from="1670263467574" duration="282000" />
+      <workItem from="1670320090684" duration="9585000" />
+      <workItem from="1670339558955" duration="136000" />
+      <workItem from="1670339752141" duration="2875000" />
+      <workItem from="1670359956339" duration="5601000" />
+      <workItem from="1670405952057" duration="14589000" />
+      <workItem from="1670519551027" duration="12609000" />
+      <workItem from="1670583467404" duration="2593000" />
+      <workItem from="1670601017688" duration="2772000" />
+      <workItem from="1670615179431" duration="7408000" />
+      <workItem from="1670762327199" duration="5640000" />
+      <workItem from="1671179934310" duration="7694000" />
+      <workItem from="1671203658186" duration="2706000" />
+      <workItem from="1671387075733" duration="7002000" />
+      <workItem from="1671450783147" duration="18818000" />
+      <workItem from="1671529015824" duration="18040000" />
+      <workItem from="1671662697265" duration="1275000" />
+      <workItem from="1671707385633" duration="1118000" />
     </task>
     <task id="LOCAL-00001" summary="lesson1">
       <created>1667299430559</created>
@@ -61,7 +136,126 @@
       <option name="project" value="LOCAL" />
       <updated>1667299430559</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lesson2">
+      <created>1667478551953</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667478551953</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lesson3">
+      <created>1667908965859</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667908965859</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lesson4">
+      <created>1668073423588</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668073423588</updated>
+    </task>
+    <task id="LOCAL-00005" summary="lesson4">
+      <created>1668073819573</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668073819573</updated>
+    </task>
+    <task id="LOCAL-00006" summary="lesson5">
+      <created>1668509631895</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668509631895</updated>
+    </task>
+    <task id="LOCAL-00007" summary="lesson5">
+      <created>1668513572317</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668513572317</updated>
+    </task>
+    <task id="LOCAL-00008" summary="lesson5 additional tasks">
+      <created>1668596635623</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668596635623</updated>
+    </task>
+    <task id="LOCAL-00009" summary="lesson6">
+      <created>1669112037169</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669112037169</updated>
+    </task>
+    <task id="LOCAL-00010" summary="lesson8">
+      <created>1670328617645</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670328617645</updated>
+    </task>
+    <task id="LOCAL-00011" summary="lesson8">
+      <created>1670328959239</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670328959239</updated>
+    </task>
+    <task id="LOCAL-00012" summary="lesson8 additional">
+      <created>1670408857023</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670408857023</updated>
+    </task>
+    <task id="LOCAL-00013" summary="lesson9">
+      <created>1670530461543</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670530461543</updated>
+    </task>
+    <task id="LOCAL-00014" summary="lesson9">
+      <created>1670530874607</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670530874607</updated>
+    </task>
+    <task id="LOCAL-00015" summary="lesson9 additional">
+      <created>1670768604679</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670768604679</updated>
+    </task>
+    <task id="LOCAL-00016" summary="mini-project">
+      <created>1671532253449</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1671532253449</updated>
+    </task>
+    <task id="LOCAL-00017" summary="mini-project">
+      <created>1671548800509</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1671548800509</updated>
+    </task>
+    <task id="LOCAL-00018" summary="mini-project">
+      <created>1671708502390</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1671708502390</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +291,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson1" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson1" />
+    <MESSAGE value="lesson2" />
+    <MESSAGE value="lesson3" />
+    <MESSAGE value="lesson4" />
+    <MESSAGE value="lesson5" />
+    <MESSAGE value="lesson5 additional tasks" />
+    <MESSAGE value="lesson6" />
+    <MESSAGE value="lesson8" />
+    <MESSAGE value="lesson8 additional" />
+    <MESSAGE value="lesson9" />
+    <MESSAGE value="lesson9 additional" />
+    <MESSAGE value="mini-project" />
+    <option name="LAST_COMMIT_MESSAGE" value="mini-project" />
   </component>
 </project>

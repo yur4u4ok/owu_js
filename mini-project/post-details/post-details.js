@@ -39,9 +39,9 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${postID}/comments`)
             let name = document.createElement('li');
             let email = document.createElement('li');
             let text = document.createElement('li');
-            email.className = 'email';
-            name.className = 'email';
-            text.className = 'email';
+            email.className = 'commentDescription';
+            name.className = 'commentDescription';
+            text.className = 'commentDescription';
 
             name.innerText = `Name - ${comment["name"]}`;
             email.innerText = `Email - ${comment["email"]}`;
