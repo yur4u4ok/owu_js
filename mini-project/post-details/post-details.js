@@ -24,16 +24,12 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${postID}`)
 
 
 setTimeout(() => {
-    let commentTitle = document.createElement('h3');
-    commentTitle.innerText = 'COMMENTS';
-    document.body.appendChild(commentTitle);
-}, 400)
-
-
-setTimeout(() => {
 fetch(`https://jsonplaceholder.typicode.com/posts/${postID}/comments`)
     .then(response => response.json())
     .then(comments => {
+        let commentTitle = document.createElement('h3');
+        commentTitle.innerText = 'COMMENTS';
+
         let mainDivForComments = document.createElement('div');
         mainDivForComments.className = 'mainDivForComments';
 
@@ -54,9 +50,9 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${postID}/comments`)
             commentDiv.append(name, email, text);
             mainDivForComments.appendChild(commentDiv);
         }
-        document.body.appendChild(mainDivForComments);
+        document.body.append(commentTitle, mainDivForComments);
     })
-},450 )
+},100 )
 
 
 
