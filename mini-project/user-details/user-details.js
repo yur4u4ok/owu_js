@@ -34,6 +34,7 @@ fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
         }
         document.body.appendChild(userDiv);
         userInspection(user);
+
         let buttonForTitles = document.createElement('button');
         buttonForTitles.innerText = 'POST OF CURRENT USER';
         buttonForTitles.className = 'buttonForTitles';
