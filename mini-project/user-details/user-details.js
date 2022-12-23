@@ -65,6 +65,7 @@ fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
                     }
                     document.body.appendChild(postDiv);
                 })
+            buttonForTitles.disabled = true;
         }
         document.body.appendChild(buttonForTitles);
     })
